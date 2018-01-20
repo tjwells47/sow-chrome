@@ -1,0 +1,140 @@
+@font-face {
+ font-family: ‘Roboto’;
+ font-style: normal;
+ font-weight: 500;
+ src: url(‘chrome-extension://efbgocjnngpdfldclbbcgjcphaggibkb/fonts/Roboto-Medium.ttf’);
+}
+
+#contentnewdiv {
+  background-color: #E8F1F5 !important;
+  height: 500px !important;
+  width: 350px !important;
+  max-height: 70vh !important;
+  position: fixed;
+  top: 50px;
+  left: 20px;
+  z-index: 9999999999 !important;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  padding: 40px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+#contentimg {
+  position: absolute;
+  top: 25px;
+  left: 35px;
+  cursor: pointer;
+  width: 55px;
+}
+
+#thex {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+
+#sowcard1234 {
+  width: 90%;
+  max-width: 90% !important;
+  margin: 0 5%;
+  background-color: white;
+  height: 220px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 8px 8px -6px #777;
+       -moz-box-shadow: 0 8px 8px -6px #777;
+            box-shadow: 0 8px 8px -6px #777;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: left !important;
+  margin-top: 20px;
+  position: relative;
+  bottom: 20px;
+  overflow: scroll;
+
+
+}
+
+#sowcard1234:hover {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  cursor: pointer;
+}
+
+#cx1234 {
+  height: 60px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  bottom: 0px;
+}
+
+#x1234  {
+  height: 28px;
+  cursor: pointer;
+}
+
+#check1234 {
+  height: 26px;
+  cursor: pointer;
+}
+
+#fb1234 {
+  width: 40%;
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  bottom: 10px;
+}
+
+#forward1234, #backward1234 {
+  width: 40px;
+  cursor: pointer;
+}
+
+#pbar1234 {
+  width: 90%;
+
+  height: 10px;
+  position: relative;
+  top: 7px;
+  z-index: 11111111;
+}
+
+#frontbackind {
+  background-color: #A2CCFB;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  border-radius: 100%;
+  top: 34%;
+  right: 17%;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+  opacity: 0.7;
+}
